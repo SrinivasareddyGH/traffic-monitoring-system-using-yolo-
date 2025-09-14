@@ -41,9 +41,9 @@ ROAD_Y1, ROAD_Y2 = 250, 350      # Road boundaries
 SPEED_LIMIT = 10                 # px/frame speed threshold
 
 # ---------- User-defined paths ----------
-LOG_FILE = r"C:\Users\99220\OneDrive\Attachments\ibm\log.txt"
-FRAME_PATH = r"C:\Users\99220\OneDrive\Attachments\ibm\frame_ibm"
-QR_PATH = r"C:\Users\99220\OneDrive\Attachments\ibm\traffic_qr"
+LOG_FILE = r"traffic_violations_log.txt"
+FRAME_PATH = r"path_to_save_frames"
+QR_PATH = r"path_to_save_qr_codes"
 
 # Ensure directories exist
 os.makedirs(FRAME_PATH, exist_ok=True)
